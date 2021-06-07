@@ -53,3 +53,41 @@ print("Index of {} is {}".format(21, my_array.index(21)))
 
 # 10. Using reverse() method to reverse an python array
 print("STEP: 10")       
+my_array.reverse()
+print(my_array)
+my_array.reverse()
+
+# 11. Get the array buffer information through buffer_info() method (gives start position of array buffer, number of elements)
+print("STEP: 11")       
+print(my_array.buffer_info())
+
+# 12. Check the number of occurances of an element using count() method
+print("STEP: 12")
+print("Count of {} is {}".format(11, my_array.count(11)))
+my_array.append(11)
+print("Count of {} is {}".format(11, my_array.count(11)))
+
+# 13. Converting an array to a string using tostring() method
+print("STEP: 13")
+# str_array = my_array.tostring() only for python version < 3.9
+byte_array = my_array.tobytes()
+print(byte_array)
+temp_array = array('i')
+# temp_array.fromstring(str_array) only for python version < 3.9
+temp_array.frombytes(byte_array)
+print(temp_array)
+
+# 14. Converting an array to a list using tolist() method
+print("STEP: 14")
+list_array = my_array.tolist()
+print(list_array)
+
+# 15. Appending a string to char array using fromstring() method
+# already seen previously 
+
+# 16. Slice elements from an array
+print("STEP: 16")
+print("Printing all the elements: ", my_array[:])
+print("Printing all the elements from 4th index to last: ", my_array[4:])
+print("Printing all the elements from start to 11th index: ", my_array[:12])
+print("Printing all the elements between 5th index to 12th: ", my_array[5:13])
