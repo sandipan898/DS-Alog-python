@@ -29,7 +29,3 @@ print("Sum of the elements of {} is {}".format(list3, sum(list3)))
 # 7. Calculating Average
 print("7. Calculating Average")
 print("Average of the elements of {} is {}".format(list3, sum(list3)/len(list3)))
-
-# 7. Calculating Average using traditional method
-print("7. Calculating Average using traditional method")
-print("Average of the elements of {} is {}".format(list3, sum(list3)/len(list3)))
