@@ -6,4 +6,4 @@ Progress Tracker:
 |09/06/2021|   Python List   |    3:24: 00   |
 |10/06/2021|Dictionary, tuple|    3:46: 00   |
 |10/06/2021|Python Tuple, SLL|    3:58: 00   |
-|10/06/2021|DLL, Stack, Queue|    4:59: 00   |
+|10/06/2021|DLL, Stack, Queue|    4:49: 00   |
